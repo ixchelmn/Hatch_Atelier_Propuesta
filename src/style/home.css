@@ -52,10 +52,6 @@ footer {
     background-color: #F3D8CD;
 }
 
-/* .navbar {
-    display: flex;
-    justify-content: space-between;
-} */
 
 .navbar-links {
     margin: 1rem;
@@ -65,11 +61,6 @@ footer {
     font-family: 'Advent Pro Medium', sans-serif;
     font-weight: bolder;
 }
-
-/* .nav-link{
-    color: tomato;
-    
-} */
 
 .navbar-links .nav-link {
     padding: unset;
@@ -97,14 +88,29 @@ footer {
     background-color: #F0637A;
     border: unset;
     border-radius: unset;
+    font-family: 'Advent Pro Medium', sans-serif;
 }
+
+.pink-button:hover{
+    background-color: white;
+    color: #F0637A;
+}
+
 
 .white-button {
     color: #F0637A;
     background-color: white;
     border-color: #F0637A;
     border-radius: unset;
+    font-family: 'Advent Pro Medium', sans-serif;;
 }
+
+.white-button:hover{
+    background-color: #F0637A;
+    color: white;
+}
+
+
 
 .no-border {
     border: unset;
@@ -164,13 +170,6 @@ footer {
 }
 
 .showcase-image {
-    /* background-image: url('../img/lobotomy\ I.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-
-    width: "30%";
-    height: "30%" */
     width: 500px;
     height: 500px;
 }
@@ -179,7 +178,7 @@ footer {
     overflow: hidden;
     object-fit: cover;
     object-position: 10% 10%;
-    /* try 20px 10px */
+    
 }
 
 .showcase-img-container {
