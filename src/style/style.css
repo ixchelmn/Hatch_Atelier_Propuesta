@@ -1,0 +1,120 @@
+/*
+    CREACIÓN 06-12-2021
+    POR IXCHEL MARTINEZ 
+    VERSION... 2.0 
+*/
+
+/*POR IMPORTAR...*/
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;500&display=swap');
+@font-face {
+    font-family: titles;
+    src: url(Gloss_And_Bloom.ttf);
+}
+@font-face {
+    font-family: logo;
+    src: url(Erstwhile_DEMO.otf);
+    
+}
+
+
+/*ESTILOS ETIQUETAS*/
+/*a{
+    font-family: 'Advent Pro Medium', sans-serif;
+    color: #5E2B43;
+
+}*/
+body{
+    background-color: #F3D8CD;
+    margin: unset;
+}
+
+footer{
+    padding: unset;
+}
+/*ESTILOS PARA ID*/
+
+/*ESTILO POR CLASE*/
+.navbar-color .navbar-brand:hover{
+    color: white;
+    
+}
+.navbar-color .navbar-brand{
+    font-family: logo; 
+    color: #F0637A;
+    font-size: x-large !important;   
+
+}
+
+.navbar-color{
+    background-color: #F3D8CD;
+}
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.navbar-links {
+    margin: 1rem;
+    background-color: #F1AFA9;
+        /* height: 1rem; */
+    flex-grow: unset;
+    font-family: 'Advent Pro Medium', sans-serif;
+    font-weight: bolder;  
+}
+
+/* .nav-link{
+    color: tomato;
+    
+} */
+.navbar-links .nav-link {
+    padding: unset;
+    color: #5E2B43 ! important;
+    
+}
+
+.navbar-links form {
+    height: 100%;
+}
+
+.navbar-links button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar-brand-container{
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.pink-button{
+    color: white;
+    background-color: #F0637A;
+    
+}
+
+.no-border{
+    border: unset;
+    border-radius: unset;
+}
+
+.dropdown-menu{
+    background-color: #F3F0E8;
+}
+
+.dropdown-item{
+    color: #5E2B43;
+}
+
+.normal-link{
+    margin: 1rem;
+    color: #F0637A !important; 
+    padding: unset;
+    text-decoration: none;
+    font-family: 'Advent Pro Medium', sans-serif;
+    font-weight:bold !important;
+    background-color: unset;
+    flex-grow: unset;
+}
