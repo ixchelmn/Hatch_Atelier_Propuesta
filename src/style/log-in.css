@@ -48,7 +48,6 @@ footer {
 
 
 .navbar-links {
-    margin: 1rem;
     background-color: #F1AFA9;
     /* height: 1rem; */
     flex-grow: unset;
@@ -73,8 +72,7 @@ footer {
 
 .nav-bar-brand-container {
     justify-content: space-evenly;
-    padding-left: 20%;
-    padding-right: 20%;
+
 }
 
 .pink-button {
@@ -121,6 +119,8 @@ footer {
     margin: 1rem;
     color: #F0637A !important;
     padding: unset;
+    display: flex;
+    white-space: nowrap;
     text-decoration: none;
     font-family: 'Advent Pro Medium', sans-serif;
     font-weight: bold !important;

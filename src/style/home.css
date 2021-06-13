@@ -54,7 +54,6 @@ footer {
 
 
 .navbar-links {
-    margin: 1rem;
     background-color: #F1AFA9;
     /* height: 1rem; */
     flex-grow: unset;
@@ -79,8 +78,6 @@ footer {
 
 .nav-bar-brand-container {
     justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 10%;
 }
 
 .pink-button {
@@ -127,6 +124,8 @@ footer {
 
 .normal-link {
     margin: 1rem;
+    display: flex;
+    white-space: nowrap;
     color: #F0637A !important;
     padding: unset;
     text-decoration: none;
@@ -135,6 +134,7 @@ footer {
     background-color: unset;
     flex-grow: unset;
     min-width: 2rem;
+
 }
 
 .slider1-container {
