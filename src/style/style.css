@@ -5,47 +5,50 @@
 */
 
 /*POR IMPORTAR...*/
+
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;500&display=swap');
 @font-face {
     font-family: titles;
     src: url(Gloss_And_Bloom.ttf);
 }
+
 @font-face {
     font-family: logo;
     src: url(Erstwhile_DEMO.otf);
-    
 }
 
-
 /*ESTILOS ETIQUETAS*/
+
 /*a{
     font-family: 'Advent Pro Medium', sans-serif;
     color: #5E2B43;
 
 }*/
-body{
+
+body {
     background-color: #F3D8CD;
     margin: unset;
 }
 
-footer{
+footer {
     padding: unset;
 }
+
 /*ESTILOS PARA ID*/
 
 /*ESTILO POR CLASE*/
-.navbar-color .navbar-brand:hover{
+
+.navbar-color .navbar-brand:hover {
     color: white;
-    
 }
-.navbar-color .navbar-brand{
-    font-family: logo; 
+
+.navbar-color .navbar-brand {
+    font-family: logo;
     color: #F0637A;
-    font-size: x-large !important;   
-
+    font-size: x-large !important;
 }
 
-.navbar-color{
+.navbar-color {
     background-color: #F3D8CD;
 }
 
@@ -57,64 +60,156 @@ footer{
 .navbar-links {
     margin: 1rem;
     background-color: #F1AFA9;
-        /* height: 1rem; */
+    /* height: 1rem; */
     flex-grow: unset;
     font-family: 'Advent Pro Medium', sans-serif;
-    font-weight: bolder;  
+    font-weight: bolder;
 }
 
 /* .nav-link{
     color: tomato;
     
 } */
+
 .navbar-links .nav-link {
     padding: unset;
     color: #5E2B43 ! important;
-    
 }
 
 .navbar-links form {
     height: 100%;
 }
 
-.navbar-links button{
+.navbar-links button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-bar-brand-container{
+.nav-bar-brand-container {
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 10%;
 }
 
-.pink-button{
+.pink-button {
     color: white;
     background-color: #F0637A;
-    
-}
-
-.no-border{
     border: unset;
     border-radius: unset;
 }
 
-.dropdown-menu{
+.white-button {
+    color: #F0637A;
+    background-color: white;
+    border-color: #F0637A;
+    border-radius: unset;
+}
+
+.no-border {
+    border: unset;
+    border-radius: unset;
+}
+
+.dropdown-menu {
     background-color: #F3F0E8;
 }
 
-.dropdown-item{
+.dropdown-item {
     color: #5E2B43;
 }
 
-.normal-link{
+.normal-link {
     margin: 1rem;
-    color: #F0637A !important; 
+    color: #F0637A !important;
     padding: unset;
     text-decoration: none;
     font-family: 'Advent Pro Medium', sans-serif;
-    font-weight:bold !important;
+    font-weight: bold !important;
     background-color: unset;
     flex-grow: unset;
+    min-width: 2rem;
+}
+
+.slider1-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 18px;
+    left: 25px;
+    font-size: 2.5rem;
+    color: #F0637A ! important;
+    z-index: 100;
+}
+
+.slider1-text {
+    font-family: titles;
+    color: #F0637A ! important;
+}
+
+.slider1-suscribe-button {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.marketing-text {
+    color: #5E2B43;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Advent Pro Medium', sans-serif;
+}
+
+.showcase-image {
+    /* background-image: url('../img/lobotomy\ I.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    width: "30%";
+    height: "30%" */
+    width: 500px;
+    height: 500px;
+}
+
+.showcase-img {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 10% 10%;
+    /* try 20px 10px */
+}
+
+.showcase-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.audio-controls {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    color: white;
+    width: 100%;
+}
+
+.normal-text{
+    color: #5E2B43;
+    font-family: 'Advent Pro Light', sans-serif;
 }
