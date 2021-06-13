@@ -135,10 +135,15 @@ footer {
     text-decoration: none;
 }
 
+.title-container{
+    padding-left: 2rem;
+    text-decoration: none;
+}
+
 .title-signup{
     font-family: titles !important;
     align-self: center;
-    font-size: 1.4rem;
+    padding-top: 1rem;
 }
 
 .login-form{
@@ -158,7 +163,7 @@ footer {
     color: #F0637A;
     font-weight: bolder;
     font-family: 'Advent Pro Light', sans-serif;
-    
+     
 }
 
 .text-register:hover{
