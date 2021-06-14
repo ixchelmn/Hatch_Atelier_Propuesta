@@ -203,3 +203,8 @@ footer {
     background-color: #F0637A !important;
     border-color: white;
 }
+
+.icon-spacing-cart{
+    margin-left: 2px;
+    color: #F0637A;
+}

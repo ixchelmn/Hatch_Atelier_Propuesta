@@ -129,13 +129,47 @@ footer {
     min-width: 2rem;
 }
 
+.container{
+    margin-bottom: 5em;
+    font-family: 'Advent Pro Medium', sans-serif; 
+    text-decoration: none;
+}
 
+.title-container{
+    /* padding-left: 2rem; */
+    text-decoration: none;
+}
 
+.title-signup{
+    font-family: titles !important;
+    align-self: center;
+    padding-top: 1rem;
+    font-size: x-large;
+}
 
+.login-form{
+    background-color: #F1AFA9 !important;
+    color: #5E2B43;
+    margin-bottom: 3em;
+    text-decoration: none;
+   
+}
 
+.container-register{
+    text-decoration: none;
+    
+}
+.text-register{
+    text-decoration: none !important;
+    color: #F0637A;
+    font-weight: bolder;
+    font-family: 'Advent Pro Light', sans-serif;
+     
+}
 
-
-
+.text-register:hover{
+    color: white;
+}
 
 .flex-center {
     display: flex;
@@ -159,4 +193,18 @@ footer {
 .normal-text{
     color: #5E2B43;
     font-family: 'Advent Pro Light', sans-serif;
+}
+
+.form-check-container{
+    padding-left: 3.5rem;
+}
+
+.form-check-input:checked{
+    background-color: #F0637A !important;
+    border-color: white;
+}
+
+.icon-spacing-cart{
+    margin-left: 2px;
+    color: #F0637A;
 }

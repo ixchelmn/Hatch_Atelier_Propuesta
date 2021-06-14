@@ -10,6 +10,10 @@
     font-family: logo;
     src: url(/src/style/Erstwhile_DEMO.otf);
 }
+@font-face {
+    font-family: featured;
+    src: url(/src/style/Aceituna_DEMO.otf);
+}
 
 /*ESTILOS ETIQUETAS*/
 
@@ -64,6 +68,10 @@ footer {
     height: 100%;
 }
 
+.form-margin{
+    margin: unset;
+}
+
 .navbar-links button {
     display: flex;
     justify-content: center;
@@ -78,14 +86,16 @@ footer {
 .pink-button {
     color: white;
     background-color: #F0637A;
-    border: unset;
+    border-color: #F0637A;
     border-radius: unset;
     font-family: 'Advent Pro Medium', sans-serif;
+    
 }
 
 .pink-button:hover{
     background-color: white;
     color: #F0637A;
+    border-color: #F0637A;
 }
 
 
@@ -129,11 +139,47 @@ footer {
     min-width: 2rem;
 }
 
+.format-featured{
+    background-color: #F1AFA9;
+    font-family: featured;
+    color: #5E2B43;
+    font-size: x-large;
+    font-weight: bolder;
+}
 
+.text-card-header{
+    font-family: titles;
+    color: #F0637A;
+    font-size: xx-large;        
+    
+}
 
+.format-card-body{
+    background-color: #F3F0E8;
+    font-family: 'Advent Pro Light', sans-serif;
+    color: #5E2B43;
+    font-size: large;
+}
 
+.format-grid-card-body{
+    background-color: #F3F0E8;
+    font-family: 'Advent Pro Light', sans-serif;
+    color: #5E2B43;
+    font-size: medium;
+}
 
+.format-card-title{
+    font-family: featured;
+    color: #F0637A;
+    text-align: center;
 
+}
+
+.grid-card-format{
+    width: 25%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;    
+}
 
 
 
@@ -159,4 +205,9 @@ footer {
 .normal-text{
     color: #5E2B43;
     font-family: 'Advent Pro Light', sans-serif;
+}
+
+.icon-spacing-cart{
+    margin-left: 2px;
+    color: #F0637A;
 }

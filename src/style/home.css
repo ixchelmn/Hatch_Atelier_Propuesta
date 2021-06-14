@@ -68,6 +68,7 @@ footer {
 
 .navbar-links form {
     height: 100%;
+    margin: unset;
 }
 
 .navbar-links button {
@@ -211,4 +212,9 @@ footer {
 .normal-text{
     color: #5E2B43;
     font-family: 'Advent Pro Light', sans-serif;
+}
+
+.icon-spacing-cart{
+    margin-left: 2px;
+    color: #F0637A;
 }

@@ -11,6 +11,12 @@
     src: url(/src/style/Erstwhile_DEMO.otf);
 }
 
+@font-face {
+    font-family: featured;
+    src: url(/src/style/Aceituna_DEMO.otf);
+}
+
+
 /*ESTILOS ETIQUETAS*/
 
 /*a{
@@ -63,6 +69,11 @@ footer {
 .navbar-links form {
     height: 100%;
 }
+
+.form-margin{
+    margin: unset;
+}
+
 
 .navbar-links button {
     display: flex;
@@ -130,7 +141,50 @@ footer {
 }
 
 
+.Jumbotron-main-format{
+    background-color: #F3F0E8;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
 
+}
+
+.Jumbotron2-main-format{
+    background-color: #F1AFA9;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.Jumbotron3-main-format{
+    background-color: #F3F0E8;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.Jumbotron-title-format{
+ font-family: titles;
+ color: #F0637A;
+ text-align: center;
+ margin-bottom: 2rem;
+}
+
+.Jumbotron2-title-format{
+    font-family: logo;
+    color: #F3F0E8;
+    text-align: center;
+    margin-bottom: 2rem;
+   }
+   
+.Jumbotron3-title-format{
+ font-family: logo;
+ color: #F0637A;
+ text-align: center;
+ margin-bottom: 2rem;
+}
+.Jumbotron-lead-text{
+    font-family: featured;    
+}
 
 
 
@@ -160,3 +214,18 @@ footer {
     color: #5E2B43;
     font-family: 'Advent Pro Light', sans-serif;
 }
+
+.icon-spacing-cart{
+    margin-left: 2px;
+    color: #F0637A;
+}
+
+.icon-color{
+    /* margin-left: 2px; */
+    color: #F0637A;
+}
+
+.icon-eye-spacing{
+    margin-right: 1rem;
+}
+
