@@ -7,6 +7,7 @@
 /*POR IMPORTAR...*/
 
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 @font-face {
     font-family: titles;
     src: url(Gloss_And_Bloom.ttf);
@@ -150,7 +151,7 @@ footer {
 }
 
 .slider1-text {
-    font-family: titles;
+    font-family: 'Knewave', cursive;
     color: #F0637A ! important;
 }
 
