@@ -1,21 +1,11 @@
 /*POR IMPORTAR...*/
 
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;500&display=swap');
-@font-face {
-    font-family: titles;
-    src: url(/src/style/Gloss_And_Bloom.ttf);
-}
-
-@font-face {
-    font-family: logo;
-    src: url(/src/style/Erstwhile_DEMO.otf);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 @font-face {
     font-family: featured;
     src: url(/src/style/Aceituna_DEMO.otf);
 }
-
 
 /*ESTILOS ETIQUETAS*/
 
@@ -52,7 +42,6 @@ footer {
     background-color: #F3D8CD;
 }
 
-
 .navbar-links {
     background-color: #F1AFA9;
     /* height: 1rem; */
@@ -70,10 +59,9 @@ footer {
     height: 100%;
 }
 
-.form-margin{
+.form-margin {
     margin: unset;
 }
-
 
 .navbar-links button {
     display: flex;
@@ -83,7 +71,6 @@ footer {
 
 .nav-bar-brand-container {
     justify-content: space-evenly;
-
 }
 
 .pink-button {
@@ -94,21 +81,21 @@ footer {
     font-family: 'Advent Pro Medium', sans-serif;
 }
 
-.pink-button:hover{
+.pink-button:hover {
     background-color: white;
     color: #F0637A;
 }
-
 
 .white-button {
     color: #F0637A;
     background-color: white;
     border-color: #F0637A;
     border-radius: unset;
-    font-family: 'Advent Pro Medium', sans-serif;;
+    font-family: 'Advent Pro Medium', sans-serif;
+    ;
 }
 
-.white-button:hover{
+.white-button:hover {
     background-color: #F0637A;
     color: white;
 }
@@ -140,56 +127,48 @@ footer {
     min-width: 2rem;
 }
 
-
-.Jumbotron-main-format{
+.Jumbotron-main-format {
     background-color: #F3F0E8;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-
 }
 
-.Jumbotron2-main-format{
+.Jumbotron2-main-format {
     background-color: #F1AFA9;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-
 }
 
-.Jumbotron3-main-format{
+.Jumbotron3-main-format {
     background-color: #F3F0E8;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
-
 }
 
-.Jumbotron-title-format{
- font-family: titles;
- color: #F0637A;
- text-align: center;
- margin-bottom: 2rem;
+.Jumbotron-title-format {
+    font-family: 'Knewave', cursive;
+    color: #F0637A;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
-.Jumbotron2-title-format{
-    font-family: logo;
+.Jumbotron2-title-format {
+    font-family: 'Knewave', cursive;
     color: #F3F0E8;
     text-align: center;
     margin-bottom: 2rem;
-   }
-   
-.Jumbotron3-title-format{
- font-family: logo;
- color: #F0637A;
- text-align: center;
- margin-bottom: 2rem;
-}
-.Jumbotron-lead-text{
-    font-family: featured;    
 }
 
+.Jumbotron3-title-format {
+    font-family: 'Knewave', cursive;
+    color: #F0637A;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
-
-
-
+.Jumbotron-lead-text {
+    font-family: 'Knewave', cursive;
+}
 
 .flex-center {
     display: flex;
@@ -210,22 +189,21 @@ footer {
     width: 100%;
 }
 
-.normal-text{
+.normal-text {
     color: #5E2B43;
     font-family: 'Advent Pro Light', sans-serif;
 }
 
-.icon-spacing-cart{
+.icon-spacing-cart {
     margin-left: 2px;
     color: #F0637A;
 }
 
-.icon-color{
+.icon-color {
     /* margin-left: 2px; */
     color: #F0637A;
 }
 
-.icon-eye-spacing{
+.icon-eye-spacing {
     margin-right: 1rem;
 }
-
