@@ -276,6 +276,12 @@ footer {
     margin-right: 1em;
 }
 
+.footer-section{
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em; 
+}
+
 .call-to-action-text {
     color: #D27A79;
     display: flex;
